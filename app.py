@@ -3,7 +3,7 @@
 import pickle  
 import sys
 from flask import Flask, render_template, request, redirect, Response, jsonify
-import numpy as np
+import math
 
 app = Flask(__name__)
 app.config["DEBUG"] = True
